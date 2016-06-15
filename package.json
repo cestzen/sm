@@ -1,0 +1,29 @@
+{
+  "name": "shortenerservice",
+  "version": "1.0.1",
+  "description": "Shortens a given url",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cestzen/sm.git"
+  },
+  "homepage": "https://shortener-microservice-cestzen.c9users.io/",
+  "bugs": "https://shortener-microservice-cestzen.c9users.io/",
+  "keywords": [
+    "Shortener"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "C'est Zen",
+  "license": "",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.12.4",
+    "express-session": "^1.11.3",
+    "mongodb": "^2.1.21",
+    "mongoose": "^4.1.0",
+    "passport": "^0.3.0",
+    "passport-github": "^1.0.0"
+  }
+}

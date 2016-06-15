@@ -1,0 +1,1 @@
+A simple url shortener, built on clementine js. Please see licence for more info.
